@@ -3,45 +3,46 @@
     padding: 0px;
 }
 
-body {
-    margin: 58px;
+/* Estilização do menu responsivo */
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/materialicons/v139/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2) format('woff2');
 }
 
-h1 {
-    font-size: 50px;
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
+  }
+/*=========================================*/
+
+div{
+    margin: 0 auto;
+    width: 70%;
 }
 
-h2 {
-    font-size: 40px;
+p{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: justify;
 }
 
-nav {
-    display: flex;
-    padding-top: 10px;
-    padding-bottom: 30px;
-}
-
-nav ul {
-    display: flex;
-    height: 100%;
+header h1 {
     width: 100%;
-}
-
-.menus {
-    justify-content: end;
-}
-
-.menus li {
-    padding: 5px;
-    list-style-type: none;
-}
-
-.home-title {
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 60px;
-    color: black;
-    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;    
 }
 
 section h2 {
